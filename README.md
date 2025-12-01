@@ -1,0 +1,108 @@
+# 🌐 ConnectIn — Personal Connection Manager
+
+<img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/9bb6eb06-100d-45bc-a69b-240fa186e3f9" />
+
+**ConnectIn** adalah aplikasi web sederhana untuk mencatat, mengelola, dan mengingat relasi atau kenalan baru. Dibuat sebagai solusi agar kita tidak kehilangan jejak koneksi berharga di masa depan.
+
+---
+
+## 🧐 Latar Belakang Masalah (Problem Statement)
+Di dunia perkuliahan dan profesional, kita sering bertemu banyak orang baru dalam waktu singkat (kepanitiaan, seminar, magang). Masalah yang sering terjadi:
+1.  **Lupa Detail:** Sering lupa nama lengkap, asal, atau konteks di mana kita bertemu orang tersebut.
+2.  **Kontak Tercecer:** Nomor WhatsApp tersimpan, tapi lupa LinkedIn atau Instagram-nya.
+3.  **Tidak Terorganisir:** Kontak hanya menumpuk di HP tanpa kategori yang jelas (asal instansi/kota).
+
+## 💡 Solusi (Solution Overview)
+**ConnectIn** hadir sebagai *Personal CRM (Customer Relationship Management)* sederhana:
+* **Pusat Data:** Menyimpan foto, nama, institusi, asal, dan seluruh akun sosmed (LinkedIn, IG, X, Email) dalam satu kartu profil.
+* **Visual:** Menggunakan antarmuka visual (foto profil) agar lebih mudah mengingat wajah, bukan hanya nama.
+* **Pencarian Cerdas:** Fitur *Search* dan *Filter* berdasarkan Institusi atau Asal kota untuk memudahkan pencarian kontak lama.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+* ⚛️ **React.js + Vite** (Cepat & Modern)
+* 🎨 **CSS Variables** (Glassmorphism UI + Dark/Light Mode)
+* 🖼️ **Lucide React** (Ikon Modern)
+
+**Backend:**
+* 🟢 **Node.js + Express.js** (REST API)
+* 🍃 **MongoDB + Mongoose** (Database NoSQL)
+* 🔐 **JWT + Bcrypt** (Autentikasi Aman)
+* 📤 **Multer** (Upload Foto via Base64)
+
+---
+
+## ✨ Fitur Utama
+
+1.  **Autentikasi User:** Register & Login aman dengan enkripsi password.
+2.  **Manajemen Kontak (CRUD):** Tambah, Lihat, Edit, dan Hapus data kenalan.
+3.  **Smart Filter & Search:** Cari teman berdasarkan nama, atau filter berdasarkan asal/kampus.
+4.  **Upload Foto:** Simpan foto profil kenalan agar lebih mudah diingat.
+5.  **Multi-Sosmed:** Simpan link LinkedIn, Instagram, Twitter, Facebook, dan Email.
+6.  **Dark Mode:** Tampilan yang nyaman di mata dengan animasi transisi halus.
+7.  **Responsive Design:** Tampilan rapi di Laptop maupun HP.
+
+---
+
+## 🚀 Cara Menjalankan Project (Setup Instructions)
+
+Ikuti langkah ini untuk menjalankan proyek di komputer lokal (Localhost).
+
+### 1. Clone Repository
+```
+git clone [https://github.com/USERNAME_KAMU/connectin-app.git](https://github.com/USERNAME_KAMU/connectin-app.git)
+cd connectin-app
+```
+
+### 2. Setup Backend (Server)
+Masuk ke folder server:
+```
+cd server
+npm install
+```
+Buat file ".env" di dalam folder server, isi dengan:
+```
+PORT=3001
+MONGO_URI=mongodb://127.0.0.1:27017/vibe_coding_app
+JWT_SECRET=rahasia_negara_ini_bisa_diganti
+```
+Jalankan server:
+```
+npx nodemon index.js
+```
+atau
+```
+npm run dev
+```
+
+### 3. Setup Frontend (Client)
+Buka terminal baru (split terminal), masuk ke folder client:
+```
+cd client
+npm install
+```
+Jalankan client:
+```
+npm run dev
+```
+
+### 4. Buka di Browser
+Buka link yang muncul di terminal (biasanya http://localhost:5173).
+
+## 📂Struktur Folder
+vibe-coding-app/
+├── client/                 # Frontend React
+│   ├── src/
+│   │   ├── components/     # Header, Modal, CardDetail
+│   │   ├── pages/          # Login, Dashboard, Form, Settings
+│   │   └── index.css       # Styling Global (Glassmorphism)
+│   └── ...
+├── server/                 # Backend Express
+│   ├── models/             # Schema Database (User, Contact)
+│   ├── index.js            # Logic API & Server
+│   └── ...
+└── README.md               # Dokumentasi ini
+
