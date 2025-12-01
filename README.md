@@ -107,4 +107,27 @@ vibe-coding-app/
 │   ├── index.js            # Logic API & Server
 │   └── ...
 └── README.md               # Dokumentasi ini
+```
 
+## 📸Dokumentasi
+1. Login Page: Masuk
+  <img width="1919" height="1043" alt="image" src="https://github.com/user-attachments/assets/51ed63ad-1aca-4812-9f0e-b33f90d0ee7b" />
+2. Login Page: Daftar
+   <img width="1919" height="1043" alt="image" src="https://github.com/user-attachments/assets/4b1c86e1-0455-4b8e-87f1-a6ae4b6220db" />
+3. Dashboard Awal
+   <img width="1919" height="1041" alt="image" src="https://github.com/user-attachments/assets/2c24dd16-a203-4751-968a-59d4e7855739" />
+4. Form Tambah Kenalan
+   <img width="1918" height="1044" alt="image" src="https://github.com/user-attachments/assets/065c2f8e-2c91-40b9-946e-2b78efbd01f2" />
+5. Dashboard Utama: Light
+   <img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/fe3aa8cc-e29e-4aa6-a76c-91a9b63d8b6e" />
+6. Dashboard Utama: Dark
+   <img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/a6a70207-b5d0-4c88-81d8-c3b838bc776a" />
+7. Card Kenalan
+   <img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/d1dd7083-32aa-4a1d-b22c-c12786ec7314" />
+8. User Setting: Profil (Tahap Pengembangan)
+   <img width="1919" height="1041" alt="image" src="https://github.com/user-attachments/assets/589b1028-6315-45ef-9d4e-ec362356d752" />
+9. User Setting: Keamanan (Tahap Pengembangan)
+    <img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/5436cd19-8361-45f6-828f-0d64a11324c8" />
+
+
+asadad
