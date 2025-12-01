@@ -94,15 +94,26 @@ Buka link yang muncul di terminal (biasanya http://localhost:5173).
 
 ## 📂Struktur Folder
 vibe-coding-app/
+
 ├── client/                 # Frontend React
+
 │   ├── src/
+
 │   │   ├── components/     # Header, Modal, CardDetail
+
 │   │   ├── pages/          # Login, Dashboard, Form, Settings
+
 │   │   └── index.css       # Styling Global (Glassmorphism)
+
 │   └── ...
+
 ├── server/                 # Backend Express
+
 │   ├── models/             # Schema Database (User, Contact)
+
 │   ├── index.js            # Logic API & Server
+
 │   └── ...
+
 └── README.md               # Dokumentasi ini
 
