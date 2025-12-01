@@ -92,28 +92,19 @@ npm run dev
 ### 4. Buka di Browser
 Buka link yang muncul di terminal (biasanya http://localhost:5173).
 
-## 📂Struktur Folder
+## 📂 Struktur Folder
+
+```text
 vibe-coding-app/
-
 ├── client/                 # Frontend React
-
 │   ├── src/
-
-│   │   ├── components/     # Header, Modal, CardDetail
-
+│   │   ├── components/     # Header, Modal, ContactDetail
 │   │   ├── pages/          # Login, Dashboard, Form, Settings
-
-│   │   └── index.css       # Styling Global (Glassmorphism)
-
+│   │   └── index.css       # Styling Global
 │   └── ...
-
 ├── server/                 # Backend Express
-
 │   ├── models/             # Schema Database (User, Contact)
-
 │   ├── index.js            # Logic API & Server
-
 │   └── ...
-
 └── README.md               # Dokumentasi ini
 
